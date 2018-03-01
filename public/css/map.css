@@ -1,0 +1,44 @@
+/* Map */
+
+
+.map {
+    position: relative;
+    width: 100vw;
+    height: 50px;
+    font-family: gidoleregular;
+}
+
+.map-main {
+    position:absolute;
+    width: 55px;
+    left: calc(50vw - 27.5px);
+    font-size: 25px;
+    letter-spacing: 0.1em;
+}
+
+.map-sub {
+    position: absolute;
+    font-size: 10px;
+    width: 58px;
+    left: calc(50vw - 29px);
+    top: 35px;
+    letter-spacing: 0.1em;
+}
+
+.map-wrapper {
+    margin-top: 50px;
+    display:flex;
+    flex-direction: column;
+}
+
+.map1 {
+    width: 80vw;
+    height: auto;
+    margin-left: 10vw;
+}
+
+.map2 {
+    width: 80vw;
+    height: auto;
+    margin-left: 10vw;
+}

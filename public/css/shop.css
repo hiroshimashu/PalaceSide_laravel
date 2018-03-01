@@ -1,0 +1,83 @@
+/* SHOP */
+
+
+.shop {
+    position: relative;
+    width: 100vw;
+    height: 50px;
+    font-family: gidoleregular;
+}
+
+.shop-main {
+    position:absolute;
+    width: 80px;
+    left: calc(50vw - 40px);
+    font-size: 25px;
+    letter-spacing: 0.1em;
+}
+
+.shop-sub {
+    position: absolute;
+    font-size: 10px;
+    width: 45px;
+    left: calc(50vw - 22.5px);
+    top: 35px;
+    letter-spacing: 0.1em;
+}
+/* whole-shop */
+
+.whole-shop {
+    position: relative;
+    width: 93px;
+    left: calc(50vw - 46px);
+    margin-top: 80px;
+    font-size: 15px;
+    font-family: gidoleregular;
+}
+
+
+/*  search */
+.search-container {
+    position: relative;
+    margin-top: 10px;
+    width: 100vw;
+    height: 38px;
+    background-color:#7FD09A;
+}
+
+.search-title {
+    position: absolute;
+    top:12.5px;
+    font-size: 13px;
+    left: 30px;
+    color: white;
+}
+
+.dropdown {
+    left: 90vw;
+}
+.dropdown-menu {
+    left: 80vw;
+    top: 15.5px;
+    width: 10vw;
+    height: 100px;
+
+}
+
+@media (max-width: 380px) {
+    .dropdown-menu {
+        left: 50vw;
+        top: 15.5px;
+        width: 10vw;
+        height: 100px;
+    }
+
+}
+
+/* search main */
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+.contact {
+    position: relative;
+    width: 100vw;
+    height: 50px;
+    font-family: gidoleregular;
+}
+
+.contact-main {
+    position:absolute;
+    width: 95px;
+    left: calc(50vw - 46.5px);
+    font-size: 25px;
+    letter-spacing: 0.1em;
+}
+
+.contact-sub {
+    position: absolute;
+    font-size: 10px;
+    width: 68px;
+    left: calc(50vw - 34px);
+    top: 35px;
+    letter-spacing: 0.1em;
+}
